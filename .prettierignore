@@ -1,0 +1,9 @@
+**/*.png
+**/*.svg
+package.json
+dist
+.DS_Store
+node_modules
+.eslintrc.js
+docs
+out

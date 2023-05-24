@@ -1,0 +1,11 @@
+{
+    "templates": {
+      "cleverLinks": false,
+      "monospaceLinks": false,
+      "default": {
+        "includeDate": false,
+        "useLongnameInNav": false
+      }
+    }
+  }
+  

@@ -1,0 +1,6 @@
+// typedoc.js
+ {
+    "entryPoints": ["./src/typedoc/index.ts"],
+    "out": "doc",
+    "name": "组件库",
+  }
