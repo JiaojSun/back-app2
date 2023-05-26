@@ -30,7 +30,7 @@ function Feature({ imageUrl, title, description }) {
 
 function Home() {
   const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
+  const { siteConfig = { title: '2', tagline: '3' } } = context;
   return (
     <Layout title={`Hello from ${siteConfig.title}`} description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary')}>
@@ -50,7 +50,7 @@ function Home() {
             <div className="container">
               <div className="row">
                 {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
+                  <Feature imageUrl={undefined} key={idx} {...props} />
                 ))}
               </div>
             </div>

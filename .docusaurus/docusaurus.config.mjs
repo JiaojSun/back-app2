@@ -43,7 +43,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/sidebars.ts"
+          "sidebarPath": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/sidebars.js"
         },
         "theme": {
           "customCss": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/src/css/custom.css"
@@ -56,6 +56,7 @@ export default {
       "title": "My Site",
       "items": [
         {
+          "type": "doc",
           "to": "docs/",
           "docId": "modules",
           "label": "API",

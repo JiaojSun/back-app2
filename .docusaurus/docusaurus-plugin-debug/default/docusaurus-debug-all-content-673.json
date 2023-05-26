@@ -13,7 +13,7 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/sidebars.ts",
+          "sidebarFilePath": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/sidebars.js",
           "contentPath": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/docs",
           "contentPathLocalized": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [

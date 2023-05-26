@@ -49,7 +49,7 @@ module.exports = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.ts')
+          sidebarPath: require.resolve('./sidebars.js')
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/'
@@ -68,6 +68,7 @@ module.exports = {
         title: 'My Site',
         items: [
           {
+            type: 'doc',
             to: 'docs/',
             docId: 'modules',
             label: 'API',
