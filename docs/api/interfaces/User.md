@@ -24,6 +24,10 @@ TypeDoc even supports doc comments on nested type definitions, as shown by the `
 
 The user's email address.
 
+#### Defined in
+
+[types.ts:17](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/types.ts#L17)
+
 ___
 
 ### id
@@ -31,6 +35,10 @@ ___
 • **id**: `number`
 
 The user's ID.
+
+#### Defined in
+
+[types.ts:14](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/types.ts#L14)
 
 ___
 
@@ -46,3 +54,7 @@ The user's name.
 | :------ | :------ | :------ |
 | `first` | `string` | The person's given name. |
 | `last` | `string` | The person's family name. |
+
+#### Defined in
+
+[types.ts:20](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/types.ts#L20)

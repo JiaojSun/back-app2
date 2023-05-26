@@ -23,6 +23,10 @@ each property was originally defined.
 
 • **administrativeArea**: ``"sales"`` \| ``"delivery"`` \| ``"billing"``
 
+#### Defined in
+
+[types.ts:36](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/types.ts#L36)
+
 ___
 
 ### email
@@ -34,6 +38,10 @@ The user's email address.
 #### Inherited from
 
 [User](User.md).[email](User.md#email)
+
+#### Defined in
+
+[types.ts:17](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/types.ts#L17)
 
 ___
 
@@ -47,11 +55,19 @@ The user's ID.
 
 [User](User.md).[id](User.md#id)
 
+#### Defined in
+
+[types.ts:14](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/types.ts#L14)
+
 ___
 
 ### jobTitle
 
 • **jobTitle**: `string`
+
+#### Defined in
+
+[types.ts:37](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/types.ts#L37)
 
 ___
 
@@ -71,3 +87,7 @@ The user's name.
 #### Inherited from
 
 [User](User.md).[name](User.md#name)
+
+#### Defined in
+
+[types.ts:20](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/types.ts#L20)

@@ -12,40 +12,51 @@
           "docs": [
             {
               "id": "api/classes/Customer",
-              "path": "/docs/api/classes/Customer"
+              "path": "/docs/api/classes/Customer",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "api/enums/EnumLikeObject",
-              "path": "/docs/api/enums/EnumLikeObject"
+              "path": "/docs/api/enums/EnumLikeObject",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "api/index",
               "path": "/docs/api/",
-              "sidebar": "someSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "api/interfaces/AdminUser",
-              "path": "/docs/api/interfaces/AdminUser"
+              "path": "/docs/api/interfaces/AdminUser",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "api/interfaces/CardAProps",
-              "path": "/docs/api/interfaces/CardAProps"
+              "path": "/docs/api/interfaces/CardAProps",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "api/interfaces/EasyFormDialogProps",
-              "path": "/docs/api/interfaces/EasyFormDialogProps"
+              "path": "/docs/api/interfaces/EasyFormDialogProps",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "api/interfaces/User",
-              "path": "/docs/api/interfaces/User"
+              "path": "/docs/api/interfaces/User",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/modules",
+              "path": "/docs/api/modules",
+              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "someSidebar": {
+            "tutorialSidebar": {
               "link": {
                 "path": "/docs/api/",
-                "label": "api/index"
+                "label": "API"
               }
             }
           }

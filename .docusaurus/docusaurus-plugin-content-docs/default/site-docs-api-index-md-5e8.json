@@ -2,7 +2,7 @@
   "unversionedId": "api/index",
   "id": "api/index",
   "title": "组件库",
-  "description": "Enumerations",
+  "description": "",
   "source": "@site/docs/api/index.md",
   "sourceDirName": "api",
   "slug": "/api/",
@@ -11,13 +11,17 @@
   "editUrl": null,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 0.5,
+  "sidebarPosition": 0,
   "frontMatter": {
     "id": "index",
     "title": "组件库",
-    "sidebar_label": "Exports",
-    "sidebar_position": 0.5,
+    "sidebar_label": "Readme",
+    "sidebar_position": 0,
     "custom_edit_url": null
   },
-  "sidebar": "someSidebar"
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Exports",
+    "permalink": "/docs/api/modules"
+  }
 }

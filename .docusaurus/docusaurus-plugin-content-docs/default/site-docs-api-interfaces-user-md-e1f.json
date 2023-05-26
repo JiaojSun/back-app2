@@ -18,5 +18,10 @@
     "sidebar_label": "User",
     "sidebar_position": 0,
     "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EasyFormDialogProps",
+    "permalink": "/docs/api/interfaces/EasyFormDialogProps"
   }
 }

@@ -18,5 +18,14 @@
     "sidebar_label": "Customer",
     "sidebar_position": 0,
     "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EnumLikeObject",
+    "permalink": "/docs/api/enums/EnumLikeObject"
+  },
+  "next": {
+    "title": "AdminUser",
+    "permalink": "/docs/api/interfaces/AdminUser"
   }
 }

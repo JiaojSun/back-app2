@@ -18,5 +18,14 @@
     "sidebar_label": "EasyFormDialogProps",
     "sidebar_position": 0,
     "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CardAProps",
+    "permalink": "/docs/api/interfaces/CardAProps"
+  },
+  "next": {
+    "title": "User",
+    "permalink": "/docs/api/interfaces/User"
   }
 }

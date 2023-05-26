@@ -8,20 +8,81 @@
   "className": "docs-version-current",
   "isLast": true,
   "docsSidebars": {
-    "someSidebar": [
+    "tutorialSidebar": [
       {
         "type": "category",
-        "label": "aa",
+        "label": "API",
+        "collapsible": true,
+        "collapsed": true,
         "items": [
           {
             "type": "link",
             "label": "Exports",
-            "href": "/docs/api/",
-            "docId": "api/index"
+            "href": "/docs/api/modules",
+            "docId": "api/modules"
+          },
+          {
+            "type": "category",
+            "label": "Enumerations",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "EnumLikeObject",
+                "href": "/docs/api/enums/EnumLikeObject",
+                "docId": "api/enums/EnumLikeObject"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Classes",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Customer",
+                "href": "/docs/api/classes/Customer",
+                "docId": "api/classes/Customer"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Interfaces",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "AdminUser",
+                "href": "/docs/api/interfaces/AdminUser",
+                "docId": "api/interfaces/AdminUser"
+              },
+              {
+                "type": "link",
+                "label": "CardAProps",
+                "href": "/docs/api/interfaces/CardAProps",
+                "docId": "api/interfaces/CardAProps"
+              },
+              {
+                "type": "link",
+                "label": "EasyFormDialogProps",
+                "href": "/docs/api/interfaces/EasyFormDialogProps",
+                "docId": "api/interfaces/EasyFormDialogProps"
+              },
+              {
+                "type": "link",
+                "label": "User",
+                "href": "/docs/api/interfaces/User",
+                "docId": "api/interfaces/User"
+              }
+            ]
           }
         ],
-        "collapsed": true,
-        "collapsible": true
+        "href": "/docs/api/"
       }
     ]
   },
@@ -29,38 +90,50 @@
     "api/classes/Customer": {
       "id": "api/classes/Customer",
       "title": "Class: Customer",
-      "description": "An abstract base class for the customer entity in our application."
+      "description": "An abstract base class for the customer entity in our application.",
+      "sidebar": "tutorialSidebar"
     },
     "api/enums/EnumLikeObject": {
       "id": "api/enums/EnumLikeObject",
       "title": "Enumeration: EnumLikeObject",
-      "description": "Since TypeScript's enum can be inconvenient to work with, some packages define their own enum-like objects:"
+      "description": "Since TypeScript's enum can be inconvenient to work with, some packages define their own enum-like objects:",
+      "sidebar": "tutorialSidebar"
     },
     "api/index": {
       "id": "api/index",
       "title": "组件库",
-      "description": "Enumerations",
-      "sidebar": "someSidebar"
+      "description": "",
+      "sidebar": "tutorialSidebar"
     },
     "api/interfaces/AdminUser": {
       "id": "api/interfaces/AdminUser",
       "title": "Interface: AdminUser",
-      "description": "An interface that extends User and adds more properties."
+      "description": "An interface that extends User and adds more properties.",
+      "sidebar": "tutorialSidebar"
     },
     "api/interfaces/CardAProps": {
       "id": "api/interfaces/CardAProps",
       "title": "Interface: CardAProps",
-      "description": "The props type for CardA."
+      "description": "The props type for CardA.",
+      "sidebar": "tutorialSidebar"
     },
     "api/interfaces/EasyFormDialogProps": {
       "id": "api/interfaces/EasyFormDialogProps",
       "title": "Interface: EasyFormDialogProps",
-      "description": "The props type of EasyFormDialog."
+      "description": "The props type of EasyFormDialog.",
+      "sidebar": "tutorialSidebar"
     },
     "api/interfaces/User": {
       "id": "api/interfaces/User",
       "title": "Interface: User",
-      "description": "A simple interface. Each property has its own doc comment."
+      "description": "A simple interface. Each property has its own doc comment.",
+      "sidebar": "tutorialSidebar"
+    },
+    "api/modules": {
+      "id": "api/modules",
+      "title": "组件库",
+      "description": "Enumerations",
+      "sidebar": "tutorialSidebar"
     }
   }
 }

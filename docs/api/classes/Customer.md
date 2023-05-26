@@ -26,6 +26,10 @@ The constructor of the `Customer` class.
 | `name` | `string` | the customer's name |
 | `nextOrderNumber` | `string` \| `number` | the next number to use when this customer places an order |
 
+#### Defined in
+
+[classes/ClassCustomer.ts:48](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L48)
+
 ## Properties
 
 ### \_nextOrderNumber
@@ -33,6 +37,10 @@ The constructor of the `Customer` class.
 • `Private` **\_nextOrderNumber**: `number` = `0`
 
 A private property that is accessed via a getter and setter.
+
+#### Defined in
+
+[classes/ClassCustomer.ts:19](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L19)
 
 ___
 
@@ -42,6 +50,10 @@ ___
 
 An optional protected property.
 
+#### Defined in
+
+[classes/ClassCustomer.ts:16](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L16)
+
 ___
 
 ### id
@@ -50,6 +62,10 @@ ___
 
 A public readonly property.
 
+#### Defined in
+
+[classes/ClassCustomer.ts:10](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L10)
+
 ___
 
 ### name
@@ -57,6 +73,10 @@ ___
 • **name**: `string`
 
 A public property that can be reassigned.
+
+#### Defined in
+
+[classes/ClassCustomer.ts:13](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L13)
 
 ## Accessors
 
@@ -70,6 +90,10 @@ property.
 #### Returns
 
 `string`
+
+#### Defined in
+
+[classes/ClassCustomer.ts:25](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L25)
 
 • `set` **nextOrderNumber**(`value`): `void`
 
@@ -86,6 +110,10 @@ A setter that takes in either a string or a number and sets the private
 
 `void`
 
+#### Defined in
+
+[classes/ClassCustomer.ts:33](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L33)
+
 ## Methods
 
 ### doInternalStuff
@@ -97,6 +125,10 @@ A private method.
 #### Returns
 
 `void`
+
+#### Defined in
+
+[classes/ClassCustomer.ts:75](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L75)
 
 ___
 
@@ -110,6 +142,10 @@ A protected method.
 
 `boolean`
 
+#### Defined in
+
+[classes/ClassCustomer.ts:70](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L70)
+
 ___
 
 ### onOrderPlaced
@@ -121,6 +157,10 @@ A public method. To be called when an order is placed for this customer.
 #### Returns
 
 `void`
+
+#### Defined in
+
+[classes/ClassCustomer.ts:56](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L56)
 
 ___
 
@@ -135,3 +175,7 @@ TypeDoc knows to document this as a method rather than a property.
 #### Returns
 
 `void`
+
+#### Defined in
+
+[classes/ClassCustomer.ts:65](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L65)

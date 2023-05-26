@@ -6,7 +6,7 @@ sidebar_position: 0
 custom_edit_url: null
 ---
 
-The props type of [`EasyFormDialog`](../#easyformdialog).
+The props type of [`EasyFormDialog`](../modules.md#easyformdialog).
 
 ## Properties
 
@@ -15,6 +15,10 @@ The props type of [`EasyFormDialog`](../#easyformdialog).
 • `Optional` **cancelButtonText**: `string`
 
 The text of the cancel button. Defaults to "Cancel".
+
+#### Defined in
+
+[reactComponents.tsx:96](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/reactComponents.tsx#L96)
 
 ___
 
@@ -29,6 +33,10 @@ void`. You can execute the function to programmatically close the dialog:
 closeRef.current()
 ```
 
+#### Defined in
+
+[reactComponents.tsx:177](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/reactComponents.tsx#L177)
+
 ___
 
 ### focusFirst
@@ -38,6 +46,10 @@ ___
 Set to `false` to disable the default behavior of focusing the first
 input.
 
+#### Defined in
+
+[reactComponents.tsx:186](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/reactComponents.tsx#L186)
+
 ___
 
 ### formIsValid
@@ -46,6 +58,10 @@ ___
 
 A boolean indicating if the form is valid.
 
+#### Defined in
+
+[reactComponents.tsx:108](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/reactComponents.tsx#L108)
+
 ___
 
 ### modalClass
@@ -53,6 +69,10 @@ ___
 • `Optional` **modalClass**: `string`
 
 The CSS class added to the underlying Bootstrap modal.
+
+#### Defined in
+
+[reactComponents.tsx:180](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/reactComponents.tsx#L180)
 
 ___
 
@@ -63,6 +83,10 @@ ___
 Set to `false` to hide the modal footer, which contains the submit and
 cancel buttons.
 
+#### Defined in
+
+[reactComponents.tsx:192](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/reactComponents.tsx#L192)
+
 ___
 
 ### showValidation
@@ -70,6 +94,10 @@ ___
 • **showValidation**: `boolean`
 
 A boolean indicating if validation feedback is being shown.
+
+#### Defined in
+
+[reactComponents.tsx:111](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/reactComponents.tsx#L111)
 
 ___
 
@@ -79,6 +107,10 @@ ___
 
 The CSS class of the submit button.
 
+#### Defined in
+
+[reactComponents.tsx:93](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/reactComponents.tsx#L93)
+
 ___
 
 ### submitButtonText
@@ -86,6 +118,10 @@ ___
 • **submitButtonText**: `string`
 
 The text of the submit button.
+
+#### Defined in
+
+[reactComponents.tsx:90](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/reactComponents.tsx#L90)
 
 ___
 
@@ -99,6 +135,10 @@ would return true.
 This can be useful if you want to disable the submit button while a query
 is in progress.
 
+#### Defined in
+
+[reactComponents.tsx:105](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/reactComponents.tsx#L105)
+
 ___
 
 ### title
@@ -106,6 +146,10 @@ ___
 • **title**: `ReactNode`
 
 The title of the dialog. Can be a JSX element.
+
+#### Defined in
+
+[reactComponents.tsx:87](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/reactComponents.tsx#L87)
 
 ## Methods
 
@@ -118,6 +162,10 @@ An uncommonly-used callback that fires when the user clicks the cancel button.
 #### Returns
 
 `void`
+
+#### Defined in
+
+[reactComponents.tsx:167](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/reactComponents.tsx#L167)
 
 ___
 
@@ -133,6 +181,10 @@ rendered.
 #### Returns
 
 `void`
+
+#### Defined in
+
+[reactComponents.tsx:134](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/reactComponents.tsx#L134)
 
 ___
 
@@ -151,6 +203,10 @@ A callback that fires when the dialog is submitted.
 #### Returns
 
 `void`
+
+#### Defined in
+
+[reactComponents.tsx:114](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/reactComponents.tsx#L114)
 
 ___
 
@@ -185,6 +241,10 @@ installed.
 
 `Promise`<`void`\> \| `Promise`<{ `responseData`: `unknown` ; `shouldClose?`: `boolean`  }\>
 
+#### Defined in
+
+[reactComponents.tsx:154](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/reactComponents.tsx#L154)
+
 ___
 
 ### onSuccess
@@ -209,3 +269,7 @@ to support refetching the data that was updated by the form submission.
 #### Returns
 
 `Promise`<`void`\>
+
+#### Defined in
+
+[reactComponents.tsx:126](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/reactComponents.tsx#L126)

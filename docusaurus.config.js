@@ -1,72 +1,93 @@
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
+
+// import lightCodeTheme from 'prism-react-renderer/themes/github';
+// import darkCodeTheme from 'prism-react-renderer/themes/dracula';
+
+/** @type {import('@docusaurus/types').Config} */
 module.exports = {
   title: 'My Site',
-  tagline: 'The tagline of my site',
+  tagline: 'Dinosaurs are cool',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
-  themeConfig: {
-    navbar: {
-      title: 'My Site这是什么',
-      // logo: {
-      //   alt: 'My Site Logo',
-      //   src: 'img/logo.svg'
-      // },
-      items: [
-        {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left'
-        }
-      ]
-    }
+
+  // Even if you don't use internalization, you can use this field to set useful
+  // metadata like html lang. For example, if your site is Chinese, you may want
+  // to replace "en" with "zh-Hans".
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en']
   },
+  // Additional plugins
+  plugins: [
+    [
+      'docusaurus-plugin-typedoc',
+      {
+        entryPoints: ['./src/typedoc/index.ts'],
+        tsconfig: './tsconfig.json',
+        // plugin: ['typedoc-plugin-mdn-links'],
+        sidebar: {
+          autoConfiguration: true,
+          position: 0
+        },
+        cleanOutputDir: true
+      }
+    ]
+  ],
   presets: [
     [
-      '@docusaurus/preset-classic',
-      {
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve('./sidebars.js')
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/'
+          // Remove this to remove the "edit this page" links.
+          // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
         }
-      }
+      })
     ]
   ],
-  plugins: [
-    [
-      'docusaurus-plugin-typedoc',
 
-      // Plugin / TypeDoc options
-      {
-        // inputFiles: ['./src/typedoc/index.ts'],
-        // sidebar: {
-        //   sidebarFile: 'typedoc-sidebars.js'
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      navbar: {
+        // title: 'SMAVE WEB',
+        // title: 'My Site',
+        // logo: {
+        //   alt: 'My Site Logo',
+        //   src: 'img/logo.svg'
         // },
-        entryPoints: ['./src/typedoc/index.ts'],
-        sidebar: {
-          fullNames: true
-        },
-        docsRoot: 'docs',
-        out: 'api',
-        name: '组件库',
-        mode: 'file',
-        target: 'ES5',
-        includeDeclarations: true,
-        excludeExternals: true,
-        tsconfig: './tsconfig.json',
-        ignoreCompilerErrors: true,
-        readme: 'none',
-        disableSources: true,
-        includeVersion: false,
-        categoryOrder: ['Functions', 'Variables', '*']
+        items: [
+          {
+            to: 'docs/api/',
+            activeBasePath: 'docs',
+            label: 'API',
+            position: 'left'
+          },
+          {
+            type: 'doc',
+            docId: 'api/index',
+            position: 'left',
+            label: 'Tutorial'
+          }
+        ]
       }
-    ]
-  ]
+      // prism: {
+      //   theme: lightCodeTheme,
+      //   darkTheme: darkCodeTheme
+      // }
+    })
 };

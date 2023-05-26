@@ -49,39 +49,43 @@
     },
     "config": "config---demo-5-e-9-a50"
   },
-  "/docs-6e5": {
+  "/docs-dec": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-0-c-7-24d"
     },
     "versionMetadata": "versionMetadata---docs-935-398"
   },
-  "/docs/api/-96a": {
+  "/docs/api/-aee": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-api-5-e-8-853"
   },
-  "/docs/api/classes/Customer-f5b": {
+  "/docs/api/classes/Customer-64c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-api-classes-customerf-20-24f"
   },
-  "/docs/api/enums/EnumLikeObject-422": {
+  "/docs/api/enums/EnumLikeObject-d41": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-api-enums-enum-like-objecta-0-e-33e"
   },
-  "/docs/api/interfaces/AdminUser-62e": {
+  "/docs/api/interfaces/AdminUser-750": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-api-interfaces-admin-user-8-ac-4c7"
   },
-  "/docs/api/interfaces/CardAProps-91a": {
+  "/docs/api/interfaces/CardAProps-6b8": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-api-interfaces-card-a-props-2-b-7-a2a"
   },
-  "/docs/api/interfaces/EasyFormDialogProps-fdf": {
+  "/docs/api/interfaces/EasyFormDialogProps-4fe": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-api-interfaces-easy-form-dialog-props-6-b-5-b4c"
   },
-  "/docs/api/interfaces/User-43f": {
+  "/docs/api/interfaces/User-aaa": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-api-interfaces-usere-1-f-3d1"
+  },
+  "/docs/api/modules-98a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-modulesf-6-a-246"
   }
 }

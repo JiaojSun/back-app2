@@ -18,5 +18,14 @@
     "sidebar_label": "EnumLikeObject",
     "sidebar_position": 0,
     "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exports",
+    "permalink": "/docs/api/modules"
+  },
+  "next": {
+    "title": "Customer",
+    "permalink": "/docs/api/classes/Customer"
   }
 }

@@ -19,5 +19,13 @@
     "sidebar_position": 0.5,
     "custom_edit_url": null
   },
-  "sidebar": "someSidebar"
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Readme",
+    "permalink": "/docs/api/"
+  },
+  "next": {
+    "title": "EnumLikeObject",
+    "permalink": "/docs/api/enums/EnumLikeObject"
+  }
 }

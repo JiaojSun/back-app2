@@ -11,8 +11,6 @@
           "className": "docs-version-current",
           "path": "/docs",
           "tagsPath": "/docs/tags",
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs",
-          "editUrlLocalized": "https://github.com/facebook/docusaurus/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/sidebars.js",
@@ -39,6 +37,15 @@
                 "sidebar_label": "Customer",
                 "sidebar_position": 0,
                 "custom_edit_url": null
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "EnumLikeObject",
+                "permalink": "/docs/api/enums/EnumLikeObject"
+              },
+              "next": {
+                "title": "AdminUser",
+                "permalink": "/docs/api/interfaces/AdminUser"
               }
             },
             {
@@ -61,13 +68,22 @@
                 "sidebar_label": "EnumLikeObject",
                 "sidebar_position": 0,
                 "custom_edit_url": null
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Exports",
+                "permalink": "/docs/api/modules"
+              },
+              "next": {
+                "title": "Customer",
+                "permalink": "/docs/api/classes/Customer"
               }
             },
             {
               "unversionedId": "api/index",
               "id": "api/index",
               "title": "组件库",
-              "description": "Enumerations",
+              "description": "",
               "source": "@site/docs/api/index.md",
               "sourceDirName": "api",
               "slug": "/api/",
@@ -76,15 +92,19 @@
               "editUrl": null,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 0.5,
+              "sidebarPosition": 0,
               "frontMatter": {
                 "id": "index",
                 "title": "组件库",
-                "sidebar_label": "Exports",
-                "sidebar_position": 0.5,
+                "sidebar_label": "Readme",
+                "sidebar_position": 0,
                 "custom_edit_url": null
               },
-              "sidebar": "someSidebar"
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Exports",
+                "permalink": "/docs/api/modules"
+              }
             },
             {
               "unversionedId": "api/interfaces/AdminUser",
@@ -106,6 +126,15 @@
                 "sidebar_label": "AdminUser",
                 "sidebar_position": 0,
                 "custom_edit_url": null
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Customer",
+                "permalink": "/docs/api/classes/Customer"
+              },
+              "next": {
+                "title": "CardAProps",
+                "permalink": "/docs/api/interfaces/CardAProps"
               }
             },
             {
@@ -128,6 +157,15 @@
                 "sidebar_label": "CardAProps",
                 "sidebar_position": 0,
                 "custom_edit_url": null
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "AdminUser",
+                "permalink": "/docs/api/interfaces/AdminUser"
+              },
+              "next": {
+                "title": "EasyFormDialogProps",
+                "permalink": "/docs/api/interfaces/EasyFormDialogProps"
               }
             },
             {
@@ -150,6 +188,15 @@
                 "sidebar_label": "EasyFormDialogProps",
                 "sidebar_position": 0,
                 "custom_edit_url": null
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CardAProps",
+                "permalink": "/docs/api/interfaces/CardAProps"
+              },
+              "next": {
+                "title": "User",
+                "permalink": "/docs/api/interfaces/User"
               }
             },
             {
@@ -172,23 +219,118 @@
                 "sidebar_label": "User",
                 "sidebar_position": 0,
                 "custom_edit_url": null
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "EasyFormDialogProps",
+                "permalink": "/docs/api/interfaces/EasyFormDialogProps"
+              }
+            },
+            {
+              "unversionedId": "api/modules",
+              "id": "api/modules",
+              "title": "组件库",
+              "description": "Enumerations",
+              "source": "@site/docs/api/modules.md",
+              "sourceDirName": "api",
+              "slug": "/api/modules",
+              "permalink": "/docs/api/modules",
+              "draft": false,
+              "editUrl": null,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0.5,
+              "frontMatter": {
+                "id": "modules",
+                "title": "组件库",
+                "sidebar_label": "Exports",
+                "sidebar_position": 0.5,
+                "custom_edit_url": null
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Readme",
+                "permalink": "/docs/api/"
+              },
+              "next": {
+                "title": "EnumLikeObject",
+                "permalink": "/docs/api/enums/EnumLikeObject"
               }
             }
           ],
           "drafts": [],
           "sidebars": {
-            "someSidebar": [
+            "tutorialSidebar": [
               {
                 "type": "category",
-                "label": "aa",
+                "label": "API",
+                "collapsible": true,
+                "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "api/index"
+                    "id": "api/modules",
+                    "label": "Exports"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Enumerations",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "api/enums/EnumLikeObject",
+                        "label": "EnumLikeObject"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "Classes",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "api/classes/Customer",
+                        "label": "Customer"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "Interfaces",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "api/interfaces/AdminUser",
+                        "label": "AdminUser"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/interfaces/CardAProps",
+                        "label": "CardAProps"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/interfaces/EasyFormDialogProps",
+                        "label": "EasyFormDialogProps"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "api/interfaces/User",
+                        "label": "User"
+                      }
+                    ]
                   }
                 ],
-                "collapsed": true,
-                "collapsible": true
+                "link": {
+                  "type": "doc",
+                  "id": "api/index"
+                }
               }
             ]
           }

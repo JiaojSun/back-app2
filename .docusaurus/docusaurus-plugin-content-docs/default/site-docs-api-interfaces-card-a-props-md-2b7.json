@@ -18,5 +18,14 @@
     "sidebar_label": "CardAProps",
     "sidebar_position": 0,
     "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AdminUser",
+    "permalink": "/docs/api/interfaces/AdminUser"
+  },
+  "next": {
+    "title": "EasyFormDialogProps",
+    "permalink": "/docs/api/interfaces/EasyFormDialogProps"
   }
 }

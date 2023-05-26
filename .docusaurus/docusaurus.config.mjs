@@ -5,22 +5,65 @@
  */
 export default {
   "title": "My Site",
-  "tagline": "The tagline of my site",
+  "tagline": "Dinosaurs are cool",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
+  "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
   "organizationName": "facebook",
   "projectName": "docusaurus",
+  "i18n": {
+    "defaultLocale": "en",
+    "locales": [
+      "en"
+    ],
+    "path": "i18n",
+    "localeConfigs": {}
+  },
+  "plugins": [
+    [
+      "docusaurus-plugin-typedoc",
+      {
+        "entryPoints": [
+          "./src/typedoc/index.ts"
+        ],
+        "tsconfig": "./tsconfig.json",
+        "sidebar": {
+          "autoConfiguration": true,
+          "position": 0
+        },
+        "cleanOutputDir": true
+      }
+    ]
+  ],
+  "presets": [
+    [
+      "classic",
+      {
+        "docs": {
+          "sidebarPath": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/sidebars.js"
+        },
+        "theme": {
+          "customCss": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/src/css/custom.css"
+        }
+      }
+    ]
+  ],
   "themeConfig": {
     "navbar": {
-      "title": "My Site这是什么",
       "items": [
         {
-          "to": "docs/",
+          "to": "docs/api/",
           "activeBasePath": "docs",
-          "label": "Docs",
+          "label": "API",
           "position": "left"
+        },
+        {
+          "type": "doc",
+          "docId": "api/index",
+          "position": "left",
+          "label": "Tutorial"
         }
       ],
       "hideOnScroll": false
@@ -185,60 +228,7 @@ export default {
       "maxHeadingLevel": 3
     }
   },
-  "presets": [
-    [
-      "@docusaurus/preset-classic",
-      {
-        "docs": {
-          "sidebarPath": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
-        },
-        "theme": {
-          "customCss": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/src/css/custom.css"
-        }
-      }
-    ]
-  ],
-  "plugins": [
-    [
-      "docusaurus-plugin-typedoc",
-      {
-        "entryPoints": [
-          "./src/typedoc/index.ts"
-        ],
-        "sidebar": {
-          "fullNames": true
-        },
-        "docsRoot": "docs",
-        "out": "api",
-        "name": "组件库",
-        "mode": "file",
-        "target": "ES5",
-        "includeDeclarations": true,
-        "excludeExternals": true,
-        "tsconfig": "./tsconfig.json",
-        "ignoreCompilerErrors": true,
-        "readme": "none",
-        "disableSources": true,
-        "includeVersion": false,
-        "categoryOrder": [
-          "Functions",
-          "Variables",
-          "*"
-        ]
-      }
-    ]
-  ],
   "baseUrlIssueBanner": true,
-  "i18n": {
-    "defaultLocale": "en",
-    "path": "i18n",
-    "locales": [
-      "en"
-    ],
-    "localeConfigs": {}
-  },
-  "onBrokenMarkdownLinks": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"

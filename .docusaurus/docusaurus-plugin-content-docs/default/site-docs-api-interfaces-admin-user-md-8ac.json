@@ -18,5 +18,14 @@
     "sidebar_label": "AdminUser",
     "sidebar_position": 0,
     "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Customer",
+    "permalink": "/docs/api/classes/Customer"
+  },
+  "next": {
+    "title": "CardAProps",
+    "permalink": "/docs/api/interfaces/CardAProps"
   }
 }

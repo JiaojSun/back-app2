@@ -44,43 +44,55 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '6e5'),
+    component: ComponentCreator('/docs', 'dec'),
     routes: [
       {
         path: '/docs/api/',
-        component: ComponentCreator('/docs/api/', '96a'),
+        component: ComponentCreator('/docs/api/', 'aee'),
         exact: true,
-        sidebar: "someSidebar"
+        sidebar: "tutorialSidebar"
       },
       {
         path: '/docs/api/classes/Customer',
-        component: ComponentCreator('/docs/api/classes/Customer', 'f5b'),
-        exact: true
+        component: ComponentCreator('/docs/api/classes/Customer', '64c'),
+        exact: true,
+        sidebar: "tutorialSidebar"
       },
       {
         path: '/docs/api/enums/EnumLikeObject',
-        component: ComponentCreator('/docs/api/enums/EnumLikeObject', '422'),
-        exact: true
+        component: ComponentCreator('/docs/api/enums/EnumLikeObject', 'd41'),
+        exact: true,
+        sidebar: "tutorialSidebar"
       },
       {
         path: '/docs/api/interfaces/AdminUser',
-        component: ComponentCreator('/docs/api/interfaces/AdminUser', '62e'),
-        exact: true
+        component: ComponentCreator('/docs/api/interfaces/AdminUser', '750'),
+        exact: true,
+        sidebar: "tutorialSidebar"
       },
       {
         path: '/docs/api/interfaces/CardAProps',
-        component: ComponentCreator('/docs/api/interfaces/CardAProps', '91a'),
-        exact: true
+        component: ComponentCreator('/docs/api/interfaces/CardAProps', '6b8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
       },
       {
         path: '/docs/api/interfaces/EasyFormDialogProps',
-        component: ComponentCreator('/docs/api/interfaces/EasyFormDialogProps', 'fdf'),
-        exact: true
+        component: ComponentCreator('/docs/api/interfaces/EasyFormDialogProps', '4fe'),
+        exact: true,
+        sidebar: "tutorialSidebar"
       },
       {
         path: '/docs/api/interfaces/User',
-        component: ComponentCreator('/docs/api/interfaces/User', '43f'),
-        exact: true
+        component: ComponentCreator('/docs/api/interfaces/User', 'aaa'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/api/modules',
+        component: ComponentCreator('/docs/api/modules', '98a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
       }
     ]
   },
