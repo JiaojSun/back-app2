@@ -1,0 +1,87 @@
+{
+  "/__docusaurus/debug-ae5": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-7-e-6-5ec"
+    }
+  },
+  "/__docusaurus/debug/config-208": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-7-e-6-5ec"
+    }
+  },
+  "/__docusaurus/debug/content-032": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-7-e-6-5ec"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-cb2": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-7-e-6-5ec"
+    }
+  },
+  "/__docusaurus/debug/metadata-e95": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-7-e-6-5ec"
+    }
+  },
+  "/__docusaurus/debug/registry-e6e": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-7-e-6-5ec"
+    }
+  },
+  "/__docusaurus/debug/routes-c5d": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-7-e-6-5ec"
+    }
+  },
+  "/Demo/-f13": {
+    "__comp": "__comp---site-src-pages-demo-index-tsx-98-f-d7c",
+    "__context": {
+      "plugin": "plugin---demo-f-9-d-a35"
+    },
+    "config": "config---demo-5-e-9-a50"
+  },
+  "/docs-6e5": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__context": {
+      "plugin": "plugin---docs-0-c-7-24d"
+    },
+    "versionMetadata": "versionMetadata---docs-935-398"
+  },
+  "/docs/api/-96a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-5-e-8-853"
+  },
+  "/docs/api/classes/Customer-f5b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-classes-customerf-20-24f"
+  },
+  "/docs/api/enums/EnumLikeObject-422": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-enums-enum-like-objecta-0-e-33e"
+  },
+  "/docs/api/interfaces/AdminUser-62e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-interfaces-admin-user-8-ac-4c7"
+  },
+  "/docs/api/interfaces/CardAProps-91a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-interfaces-card-a-props-2-b-7-a2a"
+  },
+  "/docs/api/interfaces/EasyFormDialogProps-fdf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-interfaces-easy-form-dialog-props-6-b-5-b4c"
+  },
+  "/docs/api/interfaces/User-43f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-interfaces-usere-1-f-3d1"
+  }
+}

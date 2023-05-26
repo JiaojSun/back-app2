@@ -1,0 +1,223 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/sidebars.js",
+          "contentPath": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/docs",
+          "contentPathLocalized": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "api/classes/Customer",
+              "id": "api/classes/Customer",
+              "title": "Class: Customer",
+              "description": "An abstract base class for the customer entity in our application.",
+              "source": "@site/docs/api/classes/Customer.md",
+              "sourceDirName": "api/classes",
+              "slug": "/api/classes/Customer",
+              "permalink": "/docs/api/classes/Customer",
+              "draft": false,
+              "editUrl": null,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "id": "Customer",
+                "title": "Class: Customer",
+                "sidebar_label": "Customer",
+                "sidebar_position": 0,
+                "custom_edit_url": null
+              }
+            },
+            {
+              "unversionedId": "api/enums/EnumLikeObject",
+              "id": "api/enums/EnumLikeObject",
+              "title": "Enumeration: EnumLikeObject",
+              "description": "Since TypeScript's enum can be inconvenient to work with, some packages define their own enum-like objects:",
+              "source": "@site/docs/api/enums/EnumLikeObject.md",
+              "sourceDirName": "api/enums",
+              "slug": "/api/enums/EnumLikeObject",
+              "permalink": "/docs/api/enums/EnumLikeObject",
+              "draft": false,
+              "editUrl": null,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "id": "EnumLikeObject",
+                "title": "Enumeration: EnumLikeObject",
+                "sidebar_label": "EnumLikeObject",
+                "sidebar_position": 0,
+                "custom_edit_url": null
+              }
+            },
+            {
+              "unversionedId": "api/index",
+              "id": "api/index",
+              "title": "组件库",
+              "description": "Enumerations",
+              "source": "@site/docs/api/index.md",
+              "sourceDirName": "api",
+              "slug": "/api/",
+              "permalink": "/docs/api/",
+              "draft": false,
+              "editUrl": null,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0.5,
+              "frontMatter": {
+                "id": "index",
+                "title": "组件库",
+                "sidebar_label": "Exports",
+                "sidebar_position": 0.5,
+                "custom_edit_url": null
+              },
+              "sidebar": "someSidebar"
+            },
+            {
+              "unversionedId": "api/interfaces/AdminUser",
+              "id": "api/interfaces/AdminUser",
+              "title": "Interface: AdminUser",
+              "description": "An interface that extends User and adds more properties.",
+              "source": "@site/docs/api/interfaces/AdminUser.md",
+              "sourceDirName": "api/interfaces",
+              "slug": "/api/interfaces/AdminUser",
+              "permalink": "/docs/api/interfaces/AdminUser",
+              "draft": false,
+              "editUrl": null,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "id": "AdminUser",
+                "title": "Interface: AdminUser",
+                "sidebar_label": "AdminUser",
+                "sidebar_position": 0,
+                "custom_edit_url": null
+              }
+            },
+            {
+              "unversionedId": "api/interfaces/CardAProps",
+              "id": "api/interfaces/CardAProps",
+              "title": "Interface: CardAProps",
+              "description": "The props type for CardA.",
+              "source": "@site/docs/api/interfaces/CardAProps.md",
+              "sourceDirName": "api/interfaces",
+              "slug": "/api/interfaces/CardAProps",
+              "permalink": "/docs/api/interfaces/CardAProps",
+              "draft": false,
+              "editUrl": null,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "id": "CardAProps",
+                "title": "Interface: CardAProps",
+                "sidebar_label": "CardAProps",
+                "sidebar_position": 0,
+                "custom_edit_url": null
+              }
+            },
+            {
+              "unversionedId": "api/interfaces/EasyFormDialogProps",
+              "id": "api/interfaces/EasyFormDialogProps",
+              "title": "Interface: EasyFormDialogProps",
+              "description": "The props type of EasyFormDialog.",
+              "source": "@site/docs/api/interfaces/EasyFormDialogProps.md",
+              "sourceDirName": "api/interfaces",
+              "slug": "/api/interfaces/EasyFormDialogProps",
+              "permalink": "/docs/api/interfaces/EasyFormDialogProps",
+              "draft": false,
+              "editUrl": null,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "id": "EasyFormDialogProps",
+                "title": "Interface: EasyFormDialogProps",
+                "sidebar_label": "EasyFormDialogProps",
+                "sidebar_position": 0,
+                "custom_edit_url": null
+              }
+            },
+            {
+              "unversionedId": "api/interfaces/User",
+              "id": "api/interfaces/User",
+              "title": "Interface: User",
+              "description": "A simple interface. Each property has its own doc comment.",
+              "source": "@site/docs/api/interfaces/User.md",
+              "sourceDirName": "api/interfaces",
+              "slug": "/api/interfaces/User",
+              "permalink": "/docs/api/interfaces/User",
+              "draft": false,
+              "editUrl": null,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "id": "User",
+                "title": "Interface: User",
+                "sidebar_label": "User",
+                "sidebar_position": 0,
+                "custom_edit_url": null
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "someSidebar": [
+              {
+                "type": "category",
+                "label": "aa",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "api/index"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/Demo/",
+        "source": "@site/src/pages/Demo/index.tsx"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-plugin-typedoc": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

@@ -1,0 +1,57 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "api/index",
+          "docs": [
+            {
+              "id": "api/classes/Customer",
+              "path": "/docs/api/classes/Customer"
+            },
+            {
+              "id": "api/enums/EnumLikeObject",
+              "path": "/docs/api/enums/EnumLikeObject"
+            },
+            {
+              "id": "api/index",
+              "path": "/docs/api/",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "api/interfaces/AdminUser",
+              "path": "/docs/api/interfaces/AdminUser"
+            },
+            {
+              "id": "api/interfaces/CardAProps",
+              "path": "/docs/api/interfaces/CardAProps"
+            },
+            {
+              "id": "api/interfaces/EasyFormDialogProps",
+              "path": "/docs/api/interfaces/EasyFormDialogProps"
+            },
+            {
+              "id": "api/interfaces/User",
+              "path": "/docs/api/interfaces/User"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "someSidebar": {
+              "link": {
+                "path": "/docs/api/",
+                "label": "api/index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

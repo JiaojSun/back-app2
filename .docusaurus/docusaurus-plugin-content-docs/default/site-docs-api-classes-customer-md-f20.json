@@ -1,0 +1,22 @@
+{
+  "unversionedId": "api/classes/Customer",
+  "id": "api/classes/Customer",
+  "title": "Class: Customer",
+  "description": "An abstract base class for the customer entity in our application.",
+  "source": "@site/docs/api/classes/Customer.md",
+  "sourceDirName": "api/classes",
+  "slug": "/api/classes/Customer",
+  "permalink": "/docs/api/classes/Customer",
+  "draft": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "id": "Customer",
+    "title": "Class: Customer",
+    "sidebar_label": "Customer",
+    "sidebar_position": 0,
+    "custom_edit_url": null
+  }
+}

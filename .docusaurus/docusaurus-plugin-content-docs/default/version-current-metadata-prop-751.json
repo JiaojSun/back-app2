@@ -1,0 +1,66 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "someSidebar": [
+      {
+        "type": "category",
+        "label": "aa",
+        "items": [
+          {
+            "type": "link",
+            "label": "Exports",
+            "href": "/docs/api/",
+            "docId": "api/index"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  },
+  "docs": {
+    "api/classes/Customer": {
+      "id": "api/classes/Customer",
+      "title": "Class: Customer",
+      "description": "An abstract base class for the customer entity in our application."
+    },
+    "api/enums/EnumLikeObject": {
+      "id": "api/enums/EnumLikeObject",
+      "title": "Enumeration: EnumLikeObject",
+      "description": "Since TypeScript's enum can be inconvenient to work with, some packages define their own enum-like objects:"
+    },
+    "api/index": {
+      "id": "api/index",
+      "title": "组件库",
+      "description": "Enumerations",
+      "sidebar": "someSidebar"
+    },
+    "api/interfaces/AdminUser": {
+      "id": "api/interfaces/AdminUser",
+      "title": "Interface: AdminUser",
+      "description": "An interface that extends User and adds more properties."
+    },
+    "api/interfaces/CardAProps": {
+      "id": "api/interfaces/CardAProps",
+      "title": "Interface: CardAProps",
+      "description": "The props type for CardA."
+    },
+    "api/interfaces/EasyFormDialogProps": {
+      "id": "api/interfaces/EasyFormDialogProps",
+      "title": "Interface: EasyFormDialogProps",
+      "description": "The props type of EasyFormDialog."
+    },
+    "api/interfaces/User": {
+      "id": "api/interfaces/User",
+      "title": "Interface: User",
+      "description": "A simple interface. Each property has its own doc comment."
+    }
+  }
+}

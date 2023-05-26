@@ -1,0 +1,22 @@
+{
+  "unversionedId": "api/interfaces/User",
+  "id": "api/interfaces/User",
+  "title": "Interface: User",
+  "description": "A simple interface. Each property has its own doc comment.",
+  "source": "@site/docs/api/interfaces/User.md",
+  "sourceDirName": "api/interfaces",
+  "slug": "/api/interfaces/User",
+  "permalink": "/docs/api/interfaces/User",
+  "draft": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "id": "User",
+    "title": "Interface: User",
+    "sidebar_label": "User",
+    "sidebar_position": 0,
+    "custom_edit_url": null
+  }
+}

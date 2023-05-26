@@ -1,0 +1,22 @@
+{
+  "unversionedId": "api/interfaces/CardAProps",
+  "id": "api/interfaces/CardAProps",
+  "title": "Interface: CardAProps",
+  "description": "The props type for CardA.",
+  "source": "@site/docs/api/interfaces/CardAProps.md",
+  "sourceDirName": "api/interfaces",
+  "slug": "/api/interfaces/CardAProps",
+  "permalink": "/docs/api/interfaces/CardAProps",
+  "draft": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "id": "CardAProps",
+    "title": "Interface: CardAProps",
+    "sidebar_label": "CardAProps",
+    "sidebar_position": 0,
+    "custom_edit_url": null
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "api/interfaces/AdminUser",
+  "id": "api/interfaces/AdminUser",
+  "title": "Interface: AdminUser",
+  "description": "An interface that extends User and adds more properties.",
+  "source": "@site/docs/api/interfaces/AdminUser.md",
+  "sourceDirName": "api/interfaces",
+  "slug": "/api/interfaces/AdminUser",
+  "permalink": "/docs/api/interfaces/AdminUser",
+  "draft": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "id": "AdminUser",
+    "title": "Interface: AdminUser",
+    "sidebar_label": "AdminUser",
+    "sidebar_position": 0,
+    "custom_edit_url": null
+  }
+}
