@@ -1,0 +1,31 @@
+{
+  "unversionedId": "interfaces/AdminUser",
+  "id": "interfaces/AdminUser",
+  "title": "Interface: AdminUser",
+  "description": "An interface that extends User and adds more properties.",
+  "source": "@site/docs/interfaces/AdminUser.md",
+  "sourceDirName": "interfaces",
+  "slug": "/interfaces/AdminUser",
+  "permalink": "/docs/interfaces/AdminUser",
+  "draft": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "id": "AdminUser",
+    "title": "Interface: AdminUser",
+    "sidebar_label": "AdminUser",
+    "sidebar_position": 0,
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Customer",
+    "permalink": "/docs/classes/Customer"
+  },
+  "next": {
+    "title": "CardAProps",
+    "permalink": "/docs/interfaces/CardAProps"
+  }
+}

@@ -2,90 +2,97 @@
   "/__docusaurus/debug-ae5": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-7-e-6-5ec"
+      "plugin": "plugin---docs-docusaurus-debug-7-e-6-359"
     }
   },
   "/__docusaurus/debug/config-208": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-7-e-6-5ec"
+      "plugin": "plugin---docs-docusaurus-debug-7-e-6-359"
     }
   },
   "/__docusaurus/debug/content-032": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-7-e-6-5ec"
+      "plugin": "plugin---docs-docusaurus-debug-7-e-6-359"
     },
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+    "allContent": "allContent---docs-docusaurus-debug-content-246-f36"
   },
   "/__docusaurus/debug/globalData-cb2": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-7-e-6-5ec"
+      "plugin": "plugin---docs-docusaurus-debug-7-e-6-359"
     }
   },
   "/__docusaurus/debug/metadata-e95": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-7-e-6-5ec"
+      "plugin": "plugin---docs-docusaurus-debug-7-e-6-359"
     }
   },
   "/__docusaurus/debug/registry-e6e": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-7-e-6-5ec"
+      "plugin": "plugin---docs-docusaurus-debug-7-e-6-359"
     }
   },
   "/__docusaurus/debug/routes-c5d": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-7-e-6-5ec"
+      "plugin": "plugin---docs-docusaurus-debug-7-e-6-359"
     }
   },
   "/Demo/-f13": {
     "__comp": "__comp---site-src-pages-demo-index-tsx-98-f-d7c",
     "__context": {
-      "plugin": "plugin---demo-f-9-d-a35"
+      "plugin": "plugin---docs-demo-f-9-d-e81"
     },
-    "config": "config---demo-5-e-9-a50"
+    "config": "config---docs-demo-5-e-9-310"
   },
-  "/docs-dec": {
+  "/docs-095": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
-      "plugin": "plugin---docs-0-c-7-24d"
+      "plugin": "plugin---docs-docs-0-c-7-c03"
     },
-    "versionMetadata": "versionMetadata---docs-935-398"
+    "versionMetadata": "versionMetadata---docs-docs-935-7d8"
   },
-  "/docs/api/-aee": {
+  "/docs/-a8c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-api-5-e-8-853"
+    "content": "content---docs-docs-c-37-244"
   },
-  "/docs/api/classes/Customer-64c": {
+  "/docs/classes/Customer-7c5": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-api-classes-customerf-20-24f"
+    "content": "content---docs-docs-classes-customer-494-5ca"
   },
-  "/docs/api/enums/EnumLikeObject-d41": {
+  "/docs/enums/EnumLikeObject-b75": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-api-enums-enum-like-objecta-0-e-33e"
+    "content": "content---docs-docs-enums-enum-like-object-8-e-2-779"
   },
-  "/docs/api/interfaces/AdminUser-750": {
+  "/docs/interfaces/AdminUser-6fe": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-api-interfaces-admin-user-8-ac-4c7"
+    "content": "content---docs-docs-interfaces-admin-userf-8-f-eaa"
   },
-  "/docs/api/interfaces/CardAProps-6b8": {
+  "/docs/interfaces/CardAProps-1e5": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-api-interfaces-card-a-props-2-b-7-a2a"
+    "content": "content---docs-docs-interfaces-card-a-propsb-24-5fa"
   },
-  "/docs/api/interfaces/EasyFormDialogProps-4fe": {
+  "/docs/interfaces/EasyFormDialogProps-51a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-api-interfaces-easy-form-dialog-props-6-b-5-b4c"
+    "content": "content---docs-docs-interfaces-easy-form-dialog-propsbc-5-6c7"
   },
-  "/docs/api/interfaces/User-aaa": {
+  "/docs/interfaces/User-9d0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-api-interfaces-usere-1-f-3d1"
+    "content": "content---docs-docs-interfaces-user-2-ad-16d"
   },
-  "/docs/api/modules-98a": {
+  "/docs/modules-db3": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-api-modulesf-6-a-246"
+    "content": "content---docs-docs-modules-23-d-723"
+  },
+  "/-0ce": {
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__context": {
+      "plugin": "plugin---docs-demo-f-9-d-e81"
+    },
+    "config": "config---docs-demo-5-e-9-310"
   }
 }

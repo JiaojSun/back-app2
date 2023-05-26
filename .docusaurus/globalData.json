@@ -8,46 +8,46 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "api/index",
+          "mainDocId": "index",
           "docs": [
             {
-              "id": "api/classes/Customer",
-              "path": "/docs/api/classes/Customer",
+              "id": "classes/Customer",
+              "path": "/docs/classes/Customer",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "api/enums/EnumLikeObject",
-              "path": "/docs/api/enums/EnumLikeObject",
+              "id": "enums/EnumLikeObject",
+              "path": "/docs/enums/EnumLikeObject",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "api/index",
-              "path": "/docs/api/",
+              "id": "index",
+              "path": "/docs/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "api/interfaces/AdminUser",
-              "path": "/docs/api/interfaces/AdminUser",
+              "id": "interfaces/AdminUser",
+              "path": "/docs/interfaces/AdminUser",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "api/interfaces/CardAProps",
-              "path": "/docs/api/interfaces/CardAProps",
+              "id": "interfaces/CardAProps",
+              "path": "/docs/interfaces/CardAProps",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "api/interfaces/EasyFormDialogProps",
-              "path": "/docs/api/interfaces/EasyFormDialogProps",
+              "id": "interfaces/EasyFormDialogProps",
+              "path": "/docs/interfaces/EasyFormDialogProps",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "api/interfaces/User",
-              "path": "/docs/api/interfaces/User",
+              "id": "interfaces/User",
+              "path": "/docs/interfaces/User",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "api/modules",
-              "path": "/docs/api/modules",
+              "id": "modules",
+              "path": "/docs/modules",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -55,8 +55,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/api/",
-                "label": "API"
+                "path": "/docs/",
+                "label": "Readme"
               }
             }
           }

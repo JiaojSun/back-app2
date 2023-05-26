@@ -13,19 +13,19 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/sidebars.js",
+          "sidebarFilePath": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/sidebars.ts",
           "contentPath": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/docs",
           "contentPathLocalized": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "api/classes/Customer",
-              "id": "api/classes/Customer",
+              "unversionedId": "classes/Customer",
+              "id": "classes/Customer",
               "title": "Class: Customer",
               "description": "An abstract base class for the customer entity in our application.",
-              "source": "@site/docs/api/classes/Customer.md",
-              "sourceDirName": "api/classes",
-              "slug": "/api/classes/Customer",
-              "permalink": "/docs/api/classes/Customer",
+              "source": "@site/docs/classes/Customer.md",
+              "sourceDirName": "classes",
+              "slug": "/classes/Customer",
+              "permalink": "/docs/classes/Customer",
               "draft": false,
               "editUrl": null,
               "tags": [],
@@ -41,22 +41,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "EnumLikeObject",
-                "permalink": "/docs/api/enums/EnumLikeObject"
+                "permalink": "/docs/enums/EnumLikeObject"
               },
               "next": {
                 "title": "AdminUser",
-                "permalink": "/docs/api/interfaces/AdminUser"
+                "permalink": "/docs/interfaces/AdminUser"
               }
             },
             {
-              "unversionedId": "api/enums/EnumLikeObject",
-              "id": "api/enums/EnumLikeObject",
+              "unversionedId": "enums/EnumLikeObject",
+              "id": "enums/EnumLikeObject",
               "title": "Enumeration: EnumLikeObject",
               "description": "Since TypeScript's enum can be inconvenient to work with, some packages define their own enum-like objects:",
-              "source": "@site/docs/api/enums/EnumLikeObject.md",
-              "sourceDirName": "api/enums",
-              "slug": "/api/enums/EnumLikeObject",
-              "permalink": "/docs/api/enums/EnumLikeObject",
+              "source": "@site/docs/enums/EnumLikeObject.md",
+              "sourceDirName": "enums",
+              "slug": "/enums/EnumLikeObject",
+              "permalink": "/docs/enums/EnumLikeObject",
               "draft": false,
               "editUrl": null,
               "tags": [],
@@ -72,22 +72,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Exports",
-                "permalink": "/docs/api/modules"
+                "permalink": "/docs/modules"
               },
               "next": {
                 "title": "Customer",
-                "permalink": "/docs/api/classes/Customer"
+                "permalink": "/docs/classes/Customer"
               }
             },
             {
-              "unversionedId": "api/index",
-              "id": "api/index",
+              "unversionedId": "index",
+              "id": "index",
               "title": "组件库",
               "description": "",
-              "source": "@site/docs/api/index.md",
-              "sourceDirName": "api",
-              "slug": "/api/",
-              "permalink": "/docs/api/",
+              "source": "@site/docs/index.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/docs/",
               "draft": false,
               "editUrl": null,
               "tags": [],
@@ -103,18 +103,18 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Exports",
-                "permalink": "/docs/api/modules"
+                "permalink": "/docs/modules"
               }
             },
             {
-              "unversionedId": "api/interfaces/AdminUser",
-              "id": "api/interfaces/AdminUser",
+              "unversionedId": "interfaces/AdminUser",
+              "id": "interfaces/AdminUser",
               "title": "Interface: AdminUser",
               "description": "An interface that extends User and adds more properties.",
-              "source": "@site/docs/api/interfaces/AdminUser.md",
-              "sourceDirName": "api/interfaces",
-              "slug": "/api/interfaces/AdminUser",
-              "permalink": "/docs/api/interfaces/AdminUser",
+              "source": "@site/docs/interfaces/AdminUser.md",
+              "sourceDirName": "interfaces",
+              "slug": "/interfaces/AdminUser",
+              "permalink": "/docs/interfaces/AdminUser",
               "draft": false,
               "editUrl": null,
               "tags": [],
@@ -130,22 +130,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Customer",
-                "permalink": "/docs/api/classes/Customer"
+                "permalink": "/docs/classes/Customer"
               },
               "next": {
                 "title": "CardAProps",
-                "permalink": "/docs/api/interfaces/CardAProps"
+                "permalink": "/docs/interfaces/CardAProps"
               }
             },
             {
-              "unversionedId": "api/interfaces/CardAProps",
-              "id": "api/interfaces/CardAProps",
+              "unversionedId": "interfaces/CardAProps",
+              "id": "interfaces/CardAProps",
               "title": "Interface: CardAProps",
               "description": "The props type for CardA.",
-              "source": "@site/docs/api/interfaces/CardAProps.md",
-              "sourceDirName": "api/interfaces",
-              "slug": "/api/interfaces/CardAProps",
-              "permalink": "/docs/api/interfaces/CardAProps",
+              "source": "@site/docs/interfaces/CardAProps.md",
+              "sourceDirName": "interfaces",
+              "slug": "/interfaces/CardAProps",
+              "permalink": "/docs/interfaces/CardAProps",
               "draft": false,
               "editUrl": null,
               "tags": [],
@@ -161,22 +161,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "AdminUser",
-                "permalink": "/docs/api/interfaces/AdminUser"
+                "permalink": "/docs/interfaces/AdminUser"
               },
               "next": {
                 "title": "EasyFormDialogProps",
-                "permalink": "/docs/api/interfaces/EasyFormDialogProps"
+                "permalink": "/docs/interfaces/EasyFormDialogProps"
               }
             },
             {
-              "unversionedId": "api/interfaces/EasyFormDialogProps",
-              "id": "api/interfaces/EasyFormDialogProps",
+              "unversionedId": "interfaces/EasyFormDialogProps",
+              "id": "interfaces/EasyFormDialogProps",
               "title": "Interface: EasyFormDialogProps",
               "description": "The props type of EasyFormDialog.",
-              "source": "@site/docs/api/interfaces/EasyFormDialogProps.md",
-              "sourceDirName": "api/interfaces",
-              "slug": "/api/interfaces/EasyFormDialogProps",
-              "permalink": "/docs/api/interfaces/EasyFormDialogProps",
+              "source": "@site/docs/interfaces/EasyFormDialogProps.md",
+              "sourceDirName": "interfaces",
+              "slug": "/interfaces/EasyFormDialogProps",
+              "permalink": "/docs/interfaces/EasyFormDialogProps",
               "draft": false,
               "editUrl": null,
               "tags": [],
@@ -192,22 +192,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "CardAProps",
-                "permalink": "/docs/api/interfaces/CardAProps"
+                "permalink": "/docs/interfaces/CardAProps"
               },
               "next": {
                 "title": "User",
-                "permalink": "/docs/api/interfaces/User"
+                "permalink": "/docs/interfaces/User"
               }
             },
             {
-              "unversionedId": "api/interfaces/User",
-              "id": "api/interfaces/User",
+              "unversionedId": "interfaces/User",
+              "id": "interfaces/User",
               "title": "Interface: User",
               "description": "A simple interface. Each property has its own doc comment.",
-              "source": "@site/docs/api/interfaces/User.md",
-              "sourceDirName": "api/interfaces",
-              "slug": "/api/interfaces/User",
-              "permalink": "/docs/api/interfaces/User",
+              "source": "@site/docs/interfaces/User.md",
+              "sourceDirName": "interfaces",
+              "slug": "/interfaces/User",
+              "permalink": "/docs/interfaces/User",
               "draft": false,
               "editUrl": null,
               "tags": [],
@@ -223,18 +223,18 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "EasyFormDialogProps",
-                "permalink": "/docs/api/interfaces/EasyFormDialogProps"
+                "permalink": "/docs/interfaces/EasyFormDialogProps"
               }
             },
             {
-              "unversionedId": "api/modules",
-              "id": "api/modules",
+              "unversionedId": "modules",
+              "id": "modules",
               "title": "组件库",
               "description": "Enumerations",
-              "source": "@site/docs/api/modules.md",
-              "sourceDirName": "api",
-              "slug": "/api/modules",
-              "permalink": "/docs/api/modules",
+              "source": "@site/docs/modules.md",
+              "sourceDirName": ".",
+              "slug": "/modules",
+              "permalink": "/docs/modules",
               "draft": false,
               "editUrl": null,
               "tags": [],
@@ -250,11 +250,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Readme",
-                "permalink": "/docs/api/"
+                "permalink": "/docs/"
               },
               "next": {
                 "title": "EnumLikeObject",
-                "permalink": "/docs/api/enums/EnumLikeObject"
+                "permalink": "/docs/enums/EnumLikeObject"
               }
             }
           ],
@@ -262,75 +262,68 @@
           "sidebars": {
             "tutorialSidebar": [
               {
+                "type": "doc",
+                "id": "index",
+                "label": "Readme"
+              },
+              {
+                "type": "doc",
+                "id": "modules",
+                "label": "Exports"
+              },
+              {
                 "type": "category",
-                "label": "API",
+                "label": "Enumerations",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "api/modules",
-                    "label": "Exports"
-                  },
-                  {
-                    "type": "category",
-                    "label": "Enumerations",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "api/enums/EnumLikeObject",
-                        "label": "EnumLikeObject"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "category",
-                    "label": "Classes",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "api/classes/Customer",
-                        "label": "Customer"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "category",
-                    "label": "Interfaces",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "api/interfaces/AdminUser",
-                        "label": "AdminUser"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "api/interfaces/CardAProps",
-                        "label": "CardAProps"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "api/interfaces/EasyFormDialogProps",
-                        "label": "EasyFormDialogProps"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "api/interfaces/User",
-                        "label": "User"
-                      }
-                    ]
+                    "id": "enums/EnumLikeObject",
+                    "label": "EnumLikeObject"
                   }
-                ],
-                "link": {
-                  "type": "doc",
-                  "id": "api/index"
-                }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Classes",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "classes/Customer",
+                    "label": "Customer"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Interfaces",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "interfaces/AdminUser",
+                    "label": "AdminUser"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "interfaces/CardAProps",
+                    "label": "CardAProps"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "interfaces/EasyFormDialogProps",
+                    "label": "EasyFormDialogProps"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "interfaces/User",
+                    "label": "User"
+                  }
+                ]
               }
             ]
           }
@@ -350,6 +343,11 @@
   },
   "docusaurus-plugin-content-pages": {
     "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.tsx"
+      },
       {
         "type": "jsx",
         "permalink": "/Demo/",

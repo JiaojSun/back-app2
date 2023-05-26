@@ -28,7 +28,7 @@ The constructor of the `Customer` class.
 
 #### Defined in
 
-[classes/ClassCustomer.ts:48](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L48)
+[classes/ClassCustomer.ts:48](https://github.com/JiaojSun/react-vite-federation-back-app/blob/23c7817/src/typedoc/classes/ClassCustomer.ts#L48)
 
 ## Properties
 
@@ -40,7 +40,7 @@ A private property that is accessed via a getter and setter.
 
 #### Defined in
 
-[classes/ClassCustomer.ts:19](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L19)
+[classes/ClassCustomer.ts:19](https://github.com/JiaojSun/react-vite-federation-back-app/blob/23c7817/src/typedoc/classes/ClassCustomer.ts#L19)
 
 ___
 
@@ -52,7 +52,7 @@ An optional protected property.
 
 #### Defined in
 
-[classes/ClassCustomer.ts:16](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L16)
+[classes/ClassCustomer.ts:16](https://github.com/JiaojSun/react-vite-federation-back-app/blob/23c7817/src/typedoc/classes/ClassCustomer.ts#L16)
 
 ___
 
@@ -64,7 +64,7 @@ A public readonly property.
 
 #### Defined in
 
-[classes/ClassCustomer.ts:10](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L10)
+[classes/ClassCustomer.ts:10](https://github.com/JiaojSun/react-vite-federation-back-app/blob/23c7817/src/typedoc/classes/ClassCustomer.ts#L10)
 
 ___
 
@@ -76,7 +76,7 @@ A public property that can be reassigned.
 
 #### Defined in
 
-[classes/ClassCustomer.ts:13](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L13)
+[classes/ClassCustomer.ts:13](https://github.com/JiaojSun/react-vite-federation-back-app/blob/23c7817/src/typedoc/classes/ClassCustomer.ts#L13)
 
 ## Accessors
 
@@ -93,7 +93,7 @@ property.
 
 #### Defined in
 
-[classes/ClassCustomer.ts:25](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L25)
+[classes/ClassCustomer.ts:25](https://github.com/JiaojSun/react-vite-federation-back-app/blob/23c7817/src/typedoc/classes/ClassCustomer.ts#L25)
 
 • `set` **nextOrderNumber**(`value`): `void`
 
@@ -112,7 +112,7 @@ A setter that takes in either a string or a number and sets the private
 
 #### Defined in
 
-[classes/ClassCustomer.ts:33](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L33)
+[classes/ClassCustomer.ts:33](https://github.com/JiaojSun/react-vite-federation-back-app/blob/23c7817/src/typedoc/classes/ClassCustomer.ts#L33)
 
 ## Methods
 
@@ -128,7 +128,7 @@ A private method.
 
 #### Defined in
 
-[classes/ClassCustomer.ts:75](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L75)
+[classes/ClassCustomer.ts:75](https://github.com/JiaojSun/react-vite-federation-back-app/blob/23c7817/src/typedoc/classes/ClassCustomer.ts#L75)
 
 ___
 
@@ -144,7 +144,7 @@ A protected method.
 
 #### Defined in
 
-[classes/ClassCustomer.ts:70](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L70)
+[classes/ClassCustomer.ts:70](https://github.com/JiaojSun/react-vite-federation-back-app/blob/23c7817/src/typedoc/classes/ClassCustomer.ts#L70)
 
 ___
 
@@ -160,7 +160,7 @@ A public method. To be called when an order is placed for this customer.
 
 #### Defined in
 
-[classes/ClassCustomer.ts:56](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L56)
+[classes/ClassCustomer.ts:56](https://github.com/JiaojSun/react-vite-federation-back-app/blob/23c7817/src/typedoc/classes/ClassCustomer.ts#L56)
 
 ___
 
@@ -178,4 +178,4 @@ TypeDoc knows to document this as a method rather than a property.
 
 #### Defined in
 
-[classes/ClassCustomer.ts:65](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/classes/ClassCustomer.ts#L65)
+[classes/ClassCustomer.ts:65](https://github.com/JiaojSun/react-vite-federation-back-app/blob/23c7817/src/typedoc/classes/ClassCustomer.ts#L65)

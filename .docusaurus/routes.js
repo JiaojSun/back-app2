@@ -44,57 +44,62 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'dec'),
+    component: ComponentCreator('/docs', '095'),
     routes: [
       {
-        path: '/docs/api/',
-        component: ComponentCreator('/docs/api/', 'aee'),
+        path: '/docs/',
+        component: ComponentCreator('/docs/', 'a8c'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/api/classes/Customer',
-        component: ComponentCreator('/docs/api/classes/Customer', '64c'),
+        path: '/docs/classes/Customer',
+        component: ComponentCreator('/docs/classes/Customer', '7c5'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/api/enums/EnumLikeObject',
-        component: ComponentCreator('/docs/api/enums/EnumLikeObject', 'd41'),
+        path: '/docs/enums/EnumLikeObject',
+        component: ComponentCreator('/docs/enums/EnumLikeObject', 'b75'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/api/interfaces/AdminUser',
-        component: ComponentCreator('/docs/api/interfaces/AdminUser', '750'),
+        path: '/docs/interfaces/AdminUser',
+        component: ComponentCreator('/docs/interfaces/AdminUser', '6fe'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/api/interfaces/CardAProps',
-        component: ComponentCreator('/docs/api/interfaces/CardAProps', '6b8'),
+        path: '/docs/interfaces/CardAProps',
+        component: ComponentCreator('/docs/interfaces/CardAProps', '1e5'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/api/interfaces/EasyFormDialogProps',
-        component: ComponentCreator('/docs/api/interfaces/EasyFormDialogProps', '4fe'),
+        path: '/docs/interfaces/EasyFormDialogProps',
+        component: ComponentCreator('/docs/interfaces/EasyFormDialogProps', '51a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/api/interfaces/User',
-        component: ComponentCreator('/docs/api/interfaces/User', 'aaa'),
+        path: '/docs/interfaces/User',
+        component: ComponentCreator('/docs/interfaces/User', '9d0'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/api/modules',
-        component: ComponentCreator('/docs/api/modules', '98a'),
+        path: '/docs/modules',
+        component: ComponentCreator('/docs/modules', 'db3'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
     ]
+  },
+  {
+    path: '/',
+    component: ComponentCreator('/', '0ce'),
+    exact: true
   },
   {
     path: '*',

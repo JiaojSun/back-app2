@@ -1,0 +1,27 @@
+{
+  "unversionedId": "interfaces/User",
+  "id": "interfaces/User",
+  "title": "Interface: User",
+  "description": "A simple interface. Each property has its own doc comment.",
+  "source": "@site/docs/interfaces/User.md",
+  "sourceDirName": "interfaces",
+  "slug": "/interfaces/User",
+  "permalink": "/docs/interfaces/User",
+  "draft": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "id": "User",
+    "title": "Interface: User",
+    "sidebar_label": "User",
+    "sidebar_position": 0,
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EasyFormDialogProps",
+    "permalink": "/docs/interfaces/EasyFormDialogProps"
+  }
+}

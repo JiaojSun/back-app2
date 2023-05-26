@@ -25,7 +25,7 @@ each property was originally defined.
 
 #### Defined in
 
-[types.ts:36](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/types.ts#L36)
+[types.ts:36](https://github.com/JiaojSun/react-vite-federation-back-app/blob/23c7817/src/typedoc/types.ts#L36)
 
 ___
 
@@ -41,7 +41,7 @@ The user's email address.
 
 #### Defined in
 
-[types.ts:17](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/types.ts#L17)
+[types.ts:17](https://github.com/JiaojSun/react-vite-federation-back-app/blob/23c7817/src/typedoc/types.ts#L17)
 
 ___
 
@@ -57,7 +57,7 @@ The user's ID.
 
 #### Defined in
 
-[types.ts:14](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/types.ts#L14)
+[types.ts:14](https://github.com/JiaojSun/react-vite-federation-back-app/blob/23c7817/src/typedoc/types.ts#L14)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[types.ts:37](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/types.ts#L37)
+[types.ts:37](https://github.com/JiaojSun/react-vite-federation-back-app/blob/23c7817/src/typedoc/types.ts#L37)
 
 ___
 
@@ -90,4 +90,4 @@ The user's name.
 
 #### Defined in
 
-[types.ts:20](https://github.com/JiaojSun/react-vite-federation-back-app/blob/e7bd690/src/typedoc/types.ts#L20)
+[types.ts:20](https://github.com/JiaojSun/react-vite-federation-back-app/blob/23c7817/src/typedoc/types.ts#L20)

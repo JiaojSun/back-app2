@@ -1,0 +1,31 @@
+{
+  "unversionedId": "enums/EnumLikeObject",
+  "id": "enums/EnumLikeObject",
+  "title": "Enumeration: EnumLikeObject",
+  "description": "Since TypeScript's enum can be inconvenient to work with, some packages define their own enum-like objects:",
+  "source": "@site/docs/enums/EnumLikeObject.md",
+  "sourceDirName": "enums",
+  "slug": "/enums/EnumLikeObject",
+  "permalink": "/docs/enums/EnumLikeObject",
+  "draft": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "id": "EnumLikeObject",
+    "title": "Enumeration: EnumLikeObject",
+    "sidebar_label": "EnumLikeObject",
+    "sidebar_position": 0,
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exports",
+    "permalink": "/docs/modules"
+  },
+  "next": {
+    "title": "Customer",
+    "permalink": "/docs/classes/Customer"
+  }
+}

@@ -33,6 +33,7 @@ module.exports = {
       {
         entryPoints: ['./src/typedoc/index.ts'],
         tsconfig: './tsconfig.json',
+        out: '.',
         // plugin: ['typedoc-plugin-mdn-links'],
         sidebar: {
           autoConfiguration: true,
@@ -48,7 +49,7 @@ module.exports = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js')
+          sidebarPath: require.resolve('./sidebars.ts')
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/'
@@ -64,24 +65,13 @@ module.exports = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        // title: 'SMAVE WEB',
-        // title: 'My Site',
-        // logo: {
-        //   alt: 'My Site Logo',
-        //   src: 'img/logo.svg'
-        // },
+        title: 'My Site',
         items: [
           {
-            to: 'docs/api/',
-            activeBasePath: 'docs',
+            to: 'docs/',
+            docId: 'modules',
             label: 'API',
             position: 'left'
-          },
-          {
-            type: 'doc',
-            docId: 'api/index',
-            position: 'left',
-            label: 'Tutorial'
           }
         ]
       }

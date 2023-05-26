@@ -1,0 +1,31 @@
+{
+  "unversionedId": "interfaces/EasyFormDialogProps",
+  "id": "interfaces/EasyFormDialogProps",
+  "title": "Interface: EasyFormDialogProps",
+  "description": "The props type of EasyFormDialog.",
+  "source": "@site/docs/interfaces/EasyFormDialogProps.md",
+  "sourceDirName": "interfaces",
+  "slug": "/interfaces/EasyFormDialogProps",
+  "permalink": "/docs/interfaces/EasyFormDialogProps",
+  "draft": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "id": "EasyFormDialogProps",
+    "title": "Interface: EasyFormDialogProps",
+    "sidebar_label": "EasyFormDialogProps",
+    "sidebar_position": 0,
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CardAProps",
+    "permalink": "/docs/interfaces/CardAProps"
+  },
+  "next": {
+    "title": "User",
+    "permalink": "/docs/interfaces/User"
+  }
+}

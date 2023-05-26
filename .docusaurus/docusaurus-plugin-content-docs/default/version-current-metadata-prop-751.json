@@ -10,127 +10,124 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
+        "type": "link",
+        "label": "Readme",
+        "href": "/docs/",
+        "docId": "index"
+      },
+      {
+        "type": "link",
+        "label": "Exports",
+        "href": "/docs/modules",
+        "docId": "modules"
+      },
+      {
         "type": "category",
-        "label": "API",
+        "label": "Enumerations",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Exports",
-            "href": "/docs/api/modules",
-            "docId": "api/modules"
-          },
-          {
-            "type": "category",
-            "label": "Enumerations",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "EnumLikeObject",
-                "href": "/docs/api/enums/EnumLikeObject",
-                "docId": "api/enums/EnumLikeObject"
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "Classes",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "Customer",
-                "href": "/docs/api/classes/Customer",
-                "docId": "api/classes/Customer"
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "Interfaces",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "AdminUser",
-                "href": "/docs/api/interfaces/AdminUser",
-                "docId": "api/interfaces/AdminUser"
-              },
-              {
-                "type": "link",
-                "label": "CardAProps",
-                "href": "/docs/api/interfaces/CardAProps",
-                "docId": "api/interfaces/CardAProps"
-              },
-              {
-                "type": "link",
-                "label": "EasyFormDialogProps",
-                "href": "/docs/api/interfaces/EasyFormDialogProps",
-                "docId": "api/interfaces/EasyFormDialogProps"
-              },
-              {
-                "type": "link",
-                "label": "User",
-                "href": "/docs/api/interfaces/User",
-                "docId": "api/interfaces/User"
-              }
-            ]
+            "label": "EnumLikeObject",
+            "href": "/docs/enums/EnumLikeObject",
+            "docId": "enums/EnumLikeObject"
           }
-        ],
-        "href": "/docs/api/"
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Classes",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Customer",
+            "href": "/docs/classes/Customer",
+            "docId": "classes/Customer"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Interfaces",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "AdminUser",
+            "href": "/docs/interfaces/AdminUser",
+            "docId": "interfaces/AdminUser"
+          },
+          {
+            "type": "link",
+            "label": "CardAProps",
+            "href": "/docs/interfaces/CardAProps",
+            "docId": "interfaces/CardAProps"
+          },
+          {
+            "type": "link",
+            "label": "EasyFormDialogProps",
+            "href": "/docs/interfaces/EasyFormDialogProps",
+            "docId": "interfaces/EasyFormDialogProps"
+          },
+          {
+            "type": "link",
+            "label": "User",
+            "href": "/docs/interfaces/User",
+            "docId": "interfaces/User"
+          }
+        ]
       }
     ]
   },
   "docs": {
-    "api/classes/Customer": {
-      "id": "api/classes/Customer",
+    "classes/Customer": {
+      "id": "classes/Customer",
       "title": "Class: Customer",
       "description": "An abstract base class for the customer entity in our application.",
       "sidebar": "tutorialSidebar"
     },
-    "api/enums/EnumLikeObject": {
-      "id": "api/enums/EnumLikeObject",
+    "enums/EnumLikeObject": {
+      "id": "enums/EnumLikeObject",
       "title": "Enumeration: EnumLikeObject",
       "description": "Since TypeScript's enum can be inconvenient to work with, some packages define their own enum-like objects:",
       "sidebar": "tutorialSidebar"
     },
-    "api/index": {
-      "id": "api/index",
+    "index": {
+      "id": "index",
       "title": "组件库",
       "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "api/interfaces/AdminUser": {
-      "id": "api/interfaces/AdminUser",
+    "interfaces/AdminUser": {
+      "id": "interfaces/AdminUser",
       "title": "Interface: AdminUser",
       "description": "An interface that extends User and adds more properties.",
       "sidebar": "tutorialSidebar"
     },
-    "api/interfaces/CardAProps": {
-      "id": "api/interfaces/CardAProps",
+    "interfaces/CardAProps": {
+      "id": "interfaces/CardAProps",
       "title": "Interface: CardAProps",
       "description": "The props type for CardA.",
       "sidebar": "tutorialSidebar"
     },
-    "api/interfaces/EasyFormDialogProps": {
-      "id": "api/interfaces/EasyFormDialogProps",
+    "interfaces/EasyFormDialogProps": {
+      "id": "interfaces/EasyFormDialogProps",
       "title": "Interface: EasyFormDialogProps",
       "description": "The props type of EasyFormDialog.",
       "sidebar": "tutorialSidebar"
     },
-    "api/interfaces/User": {
-      "id": "api/interfaces/User",
+    "interfaces/User": {
+      "id": "interfaces/User",
       "title": "Interface: User",
       "description": "A simple interface. Each property has its own doc comment.",
       "sidebar": "tutorialSidebar"
     },
-    "api/modules": {
-      "id": "api/modules",
+    "modules": {
+      "id": "modules",
       "title": "组件库",
       "description": "Enumerations",
       "sidebar": "tutorialSidebar"

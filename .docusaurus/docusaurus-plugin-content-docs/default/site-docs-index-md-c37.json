@@ -1,0 +1,27 @@
+{
+  "unversionedId": "index",
+  "id": "index",
+  "title": "组件库",
+  "description": "",
+  "source": "@site/docs/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs/",
+  "draft": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "id": "index",
+    "title": "组件库",
+    "sidebar_label": "Readme",
+    "sidebar_position": 0,
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Exports",
+    "permalink": "/docs/modules"
+  }
+}

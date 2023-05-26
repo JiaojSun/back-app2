@@ -22,5 +22,6 @@ export default defineConfig({
     target: 'esnext',
     minify: false,
     cssCodeSplit: false
-  }
+  },
+  presets: [require.resolve('@docusaurus/core/lib/babel/preset')]
 });

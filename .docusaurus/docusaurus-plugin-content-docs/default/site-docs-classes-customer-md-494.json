@@ -1,0 +1,31 @@
+{
+  "unversionedId": "classes/Customer",
+  "id": "classes/Customer",
+  "title": "Class: Customer",
+  "description": "An abstract base class for the customer entity in our application.",
+  "source": "@site/docs/classes/Customer.md",
+  "sourceDirName": "classes",
+  "slug": "/classes/Customer",
+  "permalink": "/docs/classes/Customer",
+  "draft": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "id": "Customer",
+    "title": "Class: Customer",
+    "sidebar_label": "Customer",
+    "sidebar_position": 0,
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EnumLikeObject",
+    "permalink": "/docs/enums/EnumLikeObject"
+  },
+  "next": {
+    "title": "AdminUser",
+    "permalink": "/docs/interfaces/AdminUser"
+  }
+}

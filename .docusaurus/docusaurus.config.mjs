@@ -29,6 +29,7 @@ export default {
           "./src/typedoc/index.ts"
         ],
         "tsconfig": "./tsconfig.json",
+        "out": ".",
         "sidebar": {
           "autoConfiguration": true,
           "position": 0
@@ -42,7 +43,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/sidebars.js"
+          "sidebarPath": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/sidebars.ts"
         },
         "theme": {
           "customCss": "/Users/jiaojiao.sun/Documents/demo/react-vite-federation-back-app-main/src/css/custom.css"
@@ -52,18 +53,13 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
+      "title": "My Site",
       "items": [
         {
-          "to": "docs/api/",
-          "activeBasePath": "docs",
+          "to": "docs/",
+          "docId": "modules",
           "label": "API",
           "position": "left"
-        },
-        {
-          "type": "doc",
-          "docId": "api/index",
-          "position": "left",
-          "label": "Tutorial"
         }
       ],
       "hideOnScroll": false

@@ -1,0 +1,31 @@
+{
+  "unversionedId": "interfaces/CardAProps",
+  "id": "interfaces/CardAProps",
+  "title": "Interface: CardAProps",
+  "description": "The props type for CardA.",
+  "source": "@site/docs/interfaces/CardAProps.md",
+  "sourceDirName": "interfaces",
+  "slug": "/interfaces/CardAProps",
+  "permalink": "/docs/interfaces/CardAProps",
+  "draft": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "id": "CardAProps",
+    "title": "Interface: CardAProps",
+    "sidebar_label": "CardAProps",
+    "sidebar_position": 0,
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AdminUser",
+    "permalink": "/docs/interfaces/AdminUser"
+  },
+  "next": {
+    "title": "EasyFormDialogProps",
+    "permalink": "/docs/interfaces/EasyFormDialogProps"
+  }
+}
